@@ -2,6 +2,21 @@
 *{
     font-family: 'Poppins',cursive;
 }
+
+.love-box {
+  background-color: #ff69b4; /* Cor de fundo rosa */
+  color: white; /* Cor do texto branca */
+  padding: 20px; /* Espaçamento interno */
+  border-radius: 10px; /* Bordas arredondadas */
+  text-align: center; /* Texto centralizado */
+  font-size: 24px; /* Tamanho da fonte */
+  position: absolute; /* Posição absoluta */
+  top: 50%; /* Centraliza verticalmente */
+  left: 50%; /* Centraliza horizontalmente */
+  transform: translate(-50%, -50%); /* Ajusta a posição para centralizar corretamente */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra para efeito visual */
+}
+
 body{
     color: azure;
     width: 100%;
